@@ -14,7 +14,7 @@ clc;
 stopping_num_of_iters = 1000;  % to prevent endless looping
 stopping_error = 1e-6;   % convergence criterion, symbol epsilon_s
 
-relaxation_factor = 1.5;  % to adjust convergence rate, symbol omega
+relaxation_factor = 1;  % to adjust convergence rate, symbol omega
 %{
     0.25 -> 124 iterations
     0.50 -> 55 iterations
